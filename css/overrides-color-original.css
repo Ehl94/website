@@ -1,0 +1,46 @@
+/* ACCESIBILIDAD NORMAL */
+
+/* SIN SASS, DIRECTO A CSS */
+#modalHome a.badge.badge-light{
+    color: #212529 !important;
+    text-decoration: none !important;
+    background-color: #dae0e5 !important;}
+
+#modalHome a.badge.badge-light:hover,
+#modalHome a.badge.badge-light:focus,
+#modalHome a.badge.badge-light:active{
+    background-color: #c6cbd4 !important;
+}
+/* FIN SIN SASS, DIRECTO A CSS */
+
+
+
+
+
+body {
+  background-color: white !important; }
+
+.footer-ruido {
+  background: #2f354a url("../../medios/noise.png"); }
+
+.bloques-inicio a.list-group-item:hover, a.list-group-item:focus, button.list-group-item:hover, button.list-group-item:focus {
+  color: #21376b;
+  background-color: #CCCCCC; }
+
+#barra-navegacion ol.breadcrumb {
+  background-color: transparent; }
+
+/*hover sobre transferencias*/
+.section-transferencias .tab-pane.fade .panel-transferencias:hover,
+.section-transferencias .tab-pane.fade .panel-transferencias:focus {
+  background-color: #DDDDDD !important; }
+
+.section-transferencias .panel.panel-default.panel-transferencias .panel-body.div-padre:hover,
+.section-transferencias .panel.panel-default.panel-transferencias .panel-body.div-padre:focus {
+  background-color: #DDDDDD !important; }
+
+/*link idiomas barra accesibilidad*/
+div.d-flex > a.accesibilidad-idioma:hover,
+div.d-flex > a.accesibilidad-idioma:focus {
+  background-color: #DDDDDD !important;
+  color: #000000 !important; }

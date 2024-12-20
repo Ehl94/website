@@ -1,0 +1,494 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+        #imglogo{
+			width:93%;
+		}
+		#datos_usuario{
+			font-size: 11px;
+			padding-left:0px;
+		}
+		.main-sidebar {
+			padding-top: 193px;
+		}
+		#seccion_ruta{
+			display: inline-block;
+			padding-top:192px;
+		}
+		#seccion_ruta_sin_menu{
+			display: inline-block;
+			padding-top:120px;
+		}
+		#menu_usuario {
+			width: 78%;
+			padding-left: 6px;
+		}
+		#foto_usuario{
+			/*width:90%;*/
+			width: 3.2rem;
+		}
+		#seccion_principal_sin_menu{
+			margin-top:135px;
+		}
+		.modal-lg_op {
+			/*max-width: 800px;*/
+			max-width:100vw;
+		}
+		.img_usuario_cabecera{
+			margin: 10px;
+			width: 2.6rem;
+    		height: 2.6rem;
+			
+		}
+		#container-footer-sin-menu
+		{
+			position: relative;
+			bottom: 0;
+		}
+
+	}
+
+    @media only screen and (min-width : 375px) {
+         #imglogo{
+			width:80%;
+		}
+		#foto_usuario{
+			/* width:72%; */
+			width: 3.2rem;
+			/*margin-left:15px;*/
+		}
+		.img_usuario_cabecera{
+			margin: 10px;
+			width: 3rem;
+    		height: 3rem;
+		}
+		#seccion_ruta_sin_menu{
+			display: inline-block;
+			padding-top:120px;
+		}
+    }
+
+    @media only screen and (min-width : 425px) {
+		#imglogo{
+			width:70%;
+		}
+		#datos_usuario{
+			font-size: 12px;
+			padding-left: 2px;
+		}
+		#menu_usuario {
+			width: 78%;
+		}
+		#foto_usuario{
+			/* width:64%; */
+			width: 3.2rem;
+			margin-left:0px;
+		}
+		.img_usuario_cabecera{
+			margin: 10px 15px;
+			width: 3.2rem;
+    		height: 3.2rem;
+		}
+	}
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+		#imglogo{
+			width:62%;
+		}
+		#menu_usuario {
+			width: 78%;
+		}
+		#foto_usuario{
+			/* width:56%; */
+			width: 3.2rem;
+			margin-left:0px;
+		}
+    }
+
+	/* Extra Small Devices, Phones */
+    @media only screen and (min-width : 564px) {
+		#imglogo{
+			width:51%;
+		}
+		#menu_usuario {
+			width: 78%;
+		}
+		#foto_usuario{
+			/* width:48%; */
+			width: 3.2rem;
+			margin-left:0px;
+		}
+		.ptdi{
+			padding-top:17px;
+			font-size: 20px;
+		}
+		.modal-lg_op {
+			/*max-width: 800px;*/
+			max-width:100vw;
+		}
+		.img_usuario_cabecera{
+			margin: 10px;
+		}
+    }
+
+	/* Extra Small Devices, Phones */
+    @media only screen and (min-width : 576px) {
+		#imglogo{
+			width:51%;
+		}
+		#menu_usuario {
+			width: 78%;
+		}
+		#seccion_ruta{
+			display: inline-block;
+			padding-top:193px;
+		}
+		#foto_usuario{
+			/* width:53%; */
+			width: 3.2rem;
+			margin-left:0px;
+		}
+		.ptdi{
+			padding-top:17px;
+			font-size: 20px;
+		}
+		.modal-lg_op {
+			/*max-width: 800px;*/
+			max-width:80vw;
+		}
+	}
+
+	/* Extra Small Devices, Phones */
+    @media only screen and (min-width : 730px) {
+		#imglogo{
+			width:39%;
+		}
+		#menu_usuario {
+			width: 73%;
+		}
+		#foto_usuario{
+			/* width:41%; */
+			width: 3.2rem;
+			margin-left:0px;
+		}
+		.ptdi{
+			padding-top:16px;
+			font-size: 20px;
+		}
+    }
+
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+		#imglogo{
+			width:100%;
+			padding-top:22px !important;
+		}
+		#logo_header{
+			/*height:86px;*/
+			 height:163px; 
+           /* height:10.15rem; ALICIA*/
+		}
+		#foto_usuario{
+			/* width:57%; */
+			width: 3.2rem;
+			margin-left:0px;
+		}
+		.main-sidebar {
+			/*padding-top: 80px;*/
+			padding-top: 187px;
+		}
+		.main-header .sidebar-toggle{
+			padding-top: 20px;
+		}
+		.ptdi{
+			padding-top:20px;
+			font-size: 20px;
+		}
+		#datos_usuario{
+			display: inline-block;
+			font-size: 11px;
+			padding-left: 10px;
+		}
+		#seccion_ruta{
+			/*padding-top:18px;*/
+			padding-top:195px;
+		}
+		#seccion_ruta_sin_menu{
+			/*padding-top:18px;*/
+			padding-top:95px;
+		}
+		.dropdown:hover .dropdown-menu{
+		  display:block;
+		}
+		#item_submenu_padre:hover,
+		#item_menu:hover{
+			background-color:#073a87;
+			font-style: italic;
+			font-weight: bold;
+		}
+		#logo_header_sin_menu{
+			margin-top:0px;
+			height:82px;
+		}
+		#seccion_principal_sin_menu{
+			margin-top:90px;
+		}
+		.img_usuario_cabecera{
+			margin: 10px;
+		}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+     #menu_usuario {
+			padding-left: 5px;
+			width: 50%;
+			padding-right:0px;
+		}
+		#datos_usuario{
+			font-size: 11px;
+		}
+		#foto_usuario{
+			/* width:69%; */
+			width: 3.2rem;
+			margin-left:10px;
+		}
+		.ptdi{
+			padding-top:20px;
+			font-size: 20px;
+		}
+		.col-form-label {
+			text-align:right;
+		}
+		#logo_header{
+			/* height:111px; */
+             height:135px; 
+            /*height:134.45px; ALICIA*/
+		}
+		.main-sidebar {
+			display: inline-block;
+			padding-top: 130px;
+		}
+		#seccion_ruta{
+			/*padding-top:18px;*/
+			padding-top:135px;
+		}
+		#seccion_ruta_sin_menu{
+			/*padding-top:18px;*/
+			padding-top:55px;
+		}
+		#logo_header_sin_menu{
+			margin-top:0px;
+			height:93px;
+		}
+
+		#seccion_principal_sin_menu{
+			margin-top:97px;
+		}
+		.img_usuario_cabecera{
+			margin: 10px 5px;
+		}
+    }
+
+    @media only screen and (min-width : 1024px) {
+		#imglogo{
+			width:100%;
+		}
+		#menu_usuario {
+			width: 49%;
+		}
+		#datos_usuario{
+			font-size: 12px;
+			padding-left: 0px;
+		}
+		#foto_usuario{
+			/* width:66%; */
+			width: 3.2rem;
+			margin-left:10px;
+		}
+		.img_usuario_cabecera{
+			margin: 10px;
+		}
+
+		#container-header-sin-menu
+		{
+			overflow-y : hidden !important; 
+			min-height : 79vh !important;
+		}
+		
+    }
+
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+		#menu_usuario {
+			width: 40%;
+		}
+		#foto_usuario{
+			/* width:88%; */
+			width: 3.2rem;
+			margin-left:-6px;
+		}
+		.ptdi{
+			padding-top:20px;
+			font-size: 20px;
+		}
+		#uls_footer{
+			padding-left: 35px;
+		}
+		.img_usuario_cabecera{
+			margin: 10px 5px;
+		}
+        #logo_header{
+			/*height:130.45px; ALICIA*/
+			height:131px;
+		}
+
+		#container-header-sin-menu
+		{
+			overflow-y : hidden !important; 
+			min-height : 78vh !important;
+		}
+    }
+
+	/* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1440px) {
+		#menu_usuario {
+			width: 32%;
+		}
+		#foto_usuario{
+			width: 3.2rem;
+			margin-left:4px;
+		}
+		.ptdi{
+			padding-top:20px;
+			font-size: 20px;
+		}
+		.main-sidebar {
+			padding-top: 130px;
+		}
+		#uls_footer{
+			padding-left: 0px;
+		}
+		.img_usuario_cabecera{
+			margin: 10px 9px;
+		}
+		
+		#container-header-sin-menu
+		{
+			min-height : 81vh !important;
+		}
+    }
+
+	/* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1900px) {
+		#menu_usuario {
+			width: 32%;
+		}
+		/*
+		#foto_usuario{
+			width:79%;
+			margin-left:4px;
+		}*/
+		.ptdi{
+			padding-top:20px;
+			font-size: 20px;
+		}
+		.main-sidebar {
+			padding-top: 130px;
+		}
+		.img_usuario_cabecera{
+			margin: 10px 6px;
+		}
+
+		#container-header-sin-menu
+		{
+			min-height : 84vh !important;
+		}
+    }
+
+	/* Large Devices, Wide Screens */
+    @media only screen and (min-width : 2560px) {
+		#menu_usuario {
+			width: 17%;
+		}
+		.img_usuario_cabecera{
+			margin: 10px;
+		}
+		
+		#container-header-sin-menu
+		{
+			min-height : 85vh !important;
+		}
+
+    }
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 1024px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+		/*.mt-menu{
+			margin-top: 9rem;
+		}
+		*/
+		#logo_header_sin_menu {
+			margin-top: -2px;
+			height: 83px;
+		}
+		.container-fluid {
+			width: 100%;
+			padding-right: 0px;
+			padding-left: 0px;
+		}
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+		#menu_usuario{
+			padding-left: 6px;
+			padding-right: 0px;
+		}
+		/*.mt-menu{
+			margin-top: 12rem;
+		}
+		*/
+	}
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+		.container-fluid{
+			width: 100%;
+			padding-right: 0px;
+			padding-left: 0px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		.img_usuario_cabecera {
+				margin: 10px 0px;
+				width: 2.9rem;
+				height: 2.9rem;
+			
+		}
+	}

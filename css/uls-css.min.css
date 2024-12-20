@@ -1,0 +1,338 @@
+h4,h5 {
+    margin-bottom: 3px;
+    font-weight: 700
+}
+
+h5,p {
+    padding-left: 5px
+}
+
+.breadcrumb>.active,.col-form-label,h4,h5 {
+    font-weight: 700
+}
+
+h2 {
+    font-size: 1em;
+    font-style: italic
+}
+
+h4 {
+    margin-top: 3px
+}
+
+h5 {
+    margin-top: 6px
+}
+
+caption {
+    caption-side: top
+}
+
+.user-panel>.info {
+    line-height: 2.5
+}
+
+.logo #imglogo {
+    padding-top: 2px
+}
+
+.skin-blue .main-header .navbar {
+    background-color: #033989;
+}
+
+.sidebar-toggle {
+    color: #FFF
+}
+
+.sidebar-toggle:focus,.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: #033989;
+    color: #f6f6f6;
+    background: rgba(0,0,0,.1)
+}
+
+.skin-blue .main-header .logo {
+    background-color: #00155b!important;
+    color: #fff;
+    border-bottom: 0 solid transparent
+}
+
+.skin-blue .main-header .logo:hover {
+    background-color: #033989!important
+}
+
+.skin-blue .main-header li.user-header {
+    background-color: #033989
+}
+
+.content-header .breadcrumb {
+    margin: 0;
+    list-style: none;
+    background-color: #ECF0F5;
+    padding: 0
+}
+
+.breadcrumb a,.breadcrumb>.active {
+    color: #01165A
+}
+
+.modulo_ruta {
+    padding-left: 25px;
+    color: #00f
+}
+
+.sidebar-menu li.header,.tree-view a {
+    color: #FFF
+}
+
+.skin-blue .left-side,.skin-blue .main-sidebar,.skin-blue .wrapper {
+    background-color: #01165A
+}
+
+.skin-blue .sidebar-menu>li.header {
+    background: #01165A;
+    color: #FFF;
+    font-size: 14px
+}
+
+.skin-blue .sidebar-menu>li.active>a {
+    border-left-color: #D92434
+}
+
+.sidebar-menu>li>a:focus,.skin-blue .sidebar-menu>li.active>a,.skin-blue .sidebar-menu>li.menu-open>a,.skin-blue .sidebar-menu>li:hover>a {
+    color: #FFF;
+    background: #073A87;
+    font-weight: 700
+}
+
+.header>a:focus,.skin-blue .sidebar-menu .header:hover>a {
+    color: #FFF;
+    background: #01165A
+}
+
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    margin: 0 1px;
+    background: #073A77
+}
+
+.box-shadow--2dp {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12)
+}
+
+.box-shadow--3dp {
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.14),0 3px 3px -2px rgba(0,0,0,.2),0 1px 8px 0 rgba(0,0,0,.12)
+}
+
+.box-shadow--4dp {
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2)
+}
+
+.box-shadow--6dp {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.14),0 1px 18px 0 rgba(0,0,0,.12),0 3px 5px -1px rgba(0,0,0,.2)
+}
+
+.box-shadow--8dp {
+    box-shadow: 0 8px 10px 1px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12),0 5px 5px -3px rgba(0,0,0,.2)
+}
+
+.box-shadow--16dp {
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2)
+}
+
+.ptdi {
+    color: #FFF;
+    padding-top: 30px;
+    font-size: 1.3em
+}
+
+.titulo_ruta {
+    padding-top: 0;
+    padding-bottom: 3px;
+    font-size: 1.9em;
+    margin-top: 0;
+    color: #01165A
+}
+
+.texto_ruta {
+    color: #FFF;
+    padding-top: 8px
+}
+
+.panel-heading span {
+    margin-top: -20px;
+    font-size: 15px
+}
+
+.sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu>li:hover>.treeview-menu,.sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu>li:hover>a>span:not(.pull-right) {
+    width: 220px
+}
+
+.sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu>li:hover>a>span {
+    padding-left: 2px;
+    padding-right: 0
+}
+
+#validar_calendario {
+    margin-right: 23px
+}
+
+#menu_usuario {
+    height: 70px;
+    background-color: #021759;
+    margin-top: 0;
+    border-radius: 30px 0 0 30px
+}
+
+#datos_usuario {
+    padding: 0
+}
+
+.span_menu {
+    color: #FFF;
+    font-size: 13px
+}
+
+#span_menu {
+    font-size: 13px;
+    height: 45px
+}
+
+.body_modal_perfiles:hover {
+    background-color: #CCC
+}
+
+.body_modal_perfiles:hover>a>p {
+    color: #FFF!important
+}
+
+[data-toggle=collapse] .fa:before {
+    content: "\f078"
+}
+
+[data-toggle=collapse].collapsed .fa:before {
+    content: "\f077"
+}
+
+.treeview a {
+    color: #FFF
+}
+
+.form-control-file {
+    line-height: 30px!important;
+    text-align: right
+}
+
+.input-group-addon {
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da
+}
+
+#item_submenu:hover,#item_submenu_padre:focus,.item_seleccionado {
+    background-color: #073a87;
+    font-style: italic;
+    font-weight: 700
+}
+
+.navbar {
+    padding: .5rem 1rem
+}
+
+#item_menu_deshabilitado {
+    background-color: #CCC;
+    font-size: 14px
+}
+
+#nav_menu_modulo {
+    background-color: #021759;
+    font-size: 14px;
+    z-index: 800
+}
+
+#div_nav_menu_modulo {
+    font-size: 14px;
+    background-color: #073A77;
+    margin: -2px
+}
+
+#item_submenu_seleccionado {
+    font-style: italic;
+    font-weight: 700
+}
+
+#avisos_alumno_firma p {
+    margin-bottom: 0
+}
+
+.mt-menu {
+    margin-top: 8.2rem
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky_lateral {
+    position: fixed;
+    top: 20
+}
+
+.sticky-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 4px
+}
+
+#logo_header_sin_menu {
+    margin-top: -2px;
+    height: 93px
+}
+
+#seccion_menu_lateral {
+    height: calc(100vh - 130px);
+    overflow-y: auto
+}
+
+#uls_footer {
+    padding-left: 5px
+}
+
+.modal-lg_op {
+    max-width: 85vw
+}
+
+.overlay-ajax {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(243,243,254,.7);
+    z-index: 2;
+    cursor: wait
+}
+
+.overlay-ajax img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px
+}
+
+.visitado-menu,ul.sidebar-menu>li.treeview>a.visitado-menu {
+    background-color: #083ca2
+}

@@ -1,0 +1,504 @@
+/* @charset "UTF-8"; */
+/*ACCESIBILIDAD ALTO CONTRASTE*/
+
+
+/* SIN SASS, DIRECTO A CSS */
+
+/* MENU LATERAL IZQUIERDO */
+.skin-blue .sidebar-menu>li>.treeview-menu
+{
+		background-color: white !important;
+}
+.visitado-menu,
+ul.sidebar-menu > li.treeview > a.visitado-menu
+{
+		background-color: black !important;
+}
+
+
+a#ultima_informacion_principal,
+a#ultima_informacion_pagina {
+		background-color: black !important;
+		border: 1px solid white !important;
+}
+
+a#ultima_informacion_principal div.bg-primary {
+		background-color: black !important;
+}
+
+#titulo_modulo #lobby h2 {
+		background-color: black !important;
+}
+
+
+body.skin-blue .main-header .logo {
+		background-color: black !important;
+}
+
+body.skin-blue .main-header .logo:hover {
+	background-color: black !important;
+}
+
+.skin-blue .sidebar-menu>li:hover>a, .sidebar-menu>li>a:focus, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a {
+		/* background: #073A87; */
+		background: black !important;
+}
+
+.btn-close.btn-close-white {
+	filter: none;
+	background-image: url("../images/icono-x-cerrar-alto-contraste.png") !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+}
+
+/*se setea las clases de bootstrap*/
+.nav > li > a:hover, .nav > li > a:active, .nav > li > a:focus {
+	background: #0b2e61 !important;
+	color: #FFFFFF !important; }
+
+h2.text-primary,
+h1.text-primary,
+.text-primary {
+	color: #FFFFFF !important; }
+
+i.text-primary {
+	color: #FFFFFF !important; }
+
+
+
+button.btn,
+a.btn {
+	border: 2px solid white !important; }
+
+/*fin seteo clases bootstrap*/
+/*se setea clases propias*/
+/*border cuando se hace hover en la barra*/
+/*link idiomas barra accesibilidad*/
+div.d-flex > a.accesibilidad-idioma:hover,
+div.d-flex > a.accesibilidad-idioma:focus {
+	background-color: #333333 !important;
+	color: #000000 !important; }
+
+/*modal alto contraste*/
+div#modal-info-home {
+	background-color: transparent !important; }
+
+div#modal-info-home div.card.shadow.card-modal {
+	border: 1px solid #FFFFFF !important; }
+
+/*border bloques card uls inicio*/
+div > div.card-uls {
+	border: 1px solid white; }
+
+.card-modal .card-body-info:before {
+	color: white !important; }
+
+/*LISTA DE TRANSFERENCIAS NO REGULADAS*/
+.section-transferencias .tab-pane.fade .panel-transferencias:hover,
+.section-transferencias .tab-pane.fade .panel-transferencias:focus {
+	background-color: black !important; }
+
+footer a#footer-acreditacion {
+	background-color: black !important; }
+
+.footer-ruido {
+	background: black !important; }
+
+div.titulo-pagina,
+h1.titulo-pagina-h {
+	background-color: black !important;
+	color: white !important; }
+
+#modalHome ul li a i,
+#modalHome ul li a,
+#modalHome ul li a:hover,
+#modalHome ul li a:active {
+	background: black !important; }
+
+#modalHome ul li a {
+	border: 2px solid white !important; }
+
+p {
+	background-color: black !important; }
+
+.solicitud-descarga-formulario a {
+	background-color: black !important;
+	border-color: white !important; }
+
+nav,
+div,
+li,
+ol,
+header,
+footer,
+section,
+main,
+aside,
+article,
+select,
+option,
+span,
+tbody,
+table,
+th,
+td {
+	background: black !important;
+	color: white !important; }
+
+a i.h5 {
+	color: #000000 !important; }
+
+/* SHADOW */
+
+div.shadow {
+		box-shadow: 0 .5rem 1rem rgba(255,255,255,.5)!important;
+}
+
+/* Barras de progreso - Cabezeras (m�dulo de ejemplo) */
+.progress.rounded {
+	background-color: white !important;
+	border: 1px solid white !important;
+}
+
+#item_submenu_padre:hover,
+#item_menu:hover
+{
+		background-color: black !important;
+		color: white !important;
+}
+
+a.list-group-item.border
+{
+		background-color: black !important;
+		color: white !important;
+}
+div form a.list-group-item.border:hover,
+div form a.list-group-item.border:focus
+{
+		background-color: black !important;
+		color: white !important;
+}
+
+
+/* Variables de Bootstrap */
+
+.card .table-light,
+.card .table-striped
+{
+	--bs-table-striped-bg: black !important;
+	--bs-table-light-bg: black !important;
+}
+
+.card .table-light tr:hover,
+.card .table-striped tr:hover
+{
+	--bs-table-hover-bg: black !important;
+}
+
+caption,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+strong,
+em,
+cite,
+q,
+i,
+b,
+u,
+span,
+.text-dark,
+p.text-muted,
+div.text-muted,
+p.text-info,
+p.text-white,
+span.text-danger,
+span.text-success,
+div.form-text.text-danger,
+h4.border-info,
+h1.text-info,
+h3.text-info,
+h2.text-info,
+h4.text-info,
+h5.text-info,
+.display-3.text-dark,
+.display-4.text-dark,
+.display-5.text-dark,
+.container-fluid .text-dark-blue,
+.alert-dismissible
+{
+	color: white !important; }
+
+
+body,
+body.bg-white,
+nav.bg-primary,
+header.bg-primary,
+footer.bg-primary,
+div.bg-primary,
+h2.bg-primary,
+.bg-primary,
+.btn-primary,
+.btn-secondary,
+.badge-light,
+.bg-danger,
+div.bg-danger,
+.bg-info,
+div.bg-info,
+p.bg-primary,
+a.page-link,
+a.btn.btn-danger,
+li.bg-info,
+a.list-group-item,
+.btn-close.btn-close-white
+{
+		background-color: black !important; }
+
+
+.instructivos a.list-group-item p,
+#card-banner div.row div.col-12 p.h2,
+#card-banner div.row div.col-12 p.h2 b,
+#card-banner div.row div.col-12 p,
+a.list-group-item,
+a p
+{
+	color: yellow !important;
+}
+
+
+h4.border-info,
+div.card.shadow,
+div.card,
+a.page-link,
+.modal-content,
+select.form-control.is-invalid,
+select.form-control.is-valid,
+.alert-dismissible
+{
+		border-color: white !important;
+}
+
+/* .list-group a.list-group-item.active
+{
+	border-color: 1px solid white !important;
+} */
+
+div.list-group > a.list-group-item.active 
+{
+	border: 1px solid yellow !important;
+}
+
+.page-item.active .page-link {
+		border-color: yellow !important;
+}
+.page-item.active .page-link {
+		background-color: #343a40 !important;
+}
+
+
+/* SPAN ICONOS */
+
+span.input-group-text {
+		background-color: black !important;
+}
+
+/* FIN SPAN ICONOS */
+
+
+
+
+#row_accesibilidad_alto_contraste,
+#row_accesibilidad_alto_contraste div
+{
+		background-color: white !important;
+}
+
+
+a,
+a span {
+	color: yellow !important;
+	/*color: white !important;*/ }
+
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+	background: black !important;
+	color: yellow !important;
+	border: none !important; }
+
+img.on-contrast-force-gray {
+	filter: grayscale(100%) contrast(120%); }
+
+img.on-contrast-force-white {
+	filter: brightness(0) invert(1); }
+
+input[type=text],
+input[type=password],
+input[type=url],
+input[type=search],
+input[type=email],
+input[type=tel],
+input[type=date],
+input[type=month],
+input[type=week],
+input[type=datetime],
+input[type=datetime-local],
+textarea,
+input[type=number] {
+	background: black !important;
+	border: 1px solid white !important;
+	color: white !important; }
+
+/*bloques alto contraste*/
+.card-uls {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 4px 8px 16px 4px rgba(255, 255, 255, 0.4);
+	transition: 0.3s;
+	border-radius: 5px;
+	/* 5px rounded corners */ }
+
+.card-uls:hover {
+	box-shadow: 4px 12px 32px 4px rgba(255, 255, 255, 0.7); }
+
+.card-uls .container-card a {
+	background-color: #000000; }
+
+.card-uls .container-card a:hover,
+.card-uls .container-card a:active,
+.card-uls .container-card a:focus {
+	background-color: #222222; }
+
+/*modal*/
+.contenido .test1.btn {
+	background-color: #000000;
+	border: 1px solid #FFFFFF; }
+
+.contenido .test1.btn .arrow {
+	background-color: #CCCCCC; }
+
+.contenido .test1.btn .arrow i {
+	color: #000000 !important; }
+
+/*modal abierta*/
+.cajacentrada h2 {
+	background-color: #222222; }
+
+.cajacentrada a {
+	color: #FFFFFF !important; }
+
+.cajacentrada .btn-primary {
+	background-color: #000000;
+	color: #FFFFFF !important;
+	border: 1px solid #FFFFFF !important; }
+
+/*bloques imagen*/
+/*IMAGENES DEL BLOQUE EN LA PANTALLA INICIO*/
+/*SOLICITUD DE INFORMACIÓN*/
+.bloques-inicio .solicitud-informacion {
+	background-image: url("../medios/banner_contraste/solicitud-informacion.svg.html") !important; }
+
+/*COMPRAS Y ADQUISICIONES*/
+.bloques-inicio .compras-adquisiciones {
+	background-image: url("../medios/banner_contraste/compras-adquisiciones.svg.html") !important; }
+
+/*LEY DEL LOBBY*/
+.bloques-inicio .ley-lobby {
+	background-image: url("../medios/banner_contraste/lobby.svg.html") !important; }
+
+/*NORMAS JURÍDICAS*/
+.bloques-inicio .normas-juridicas {
+	background-image: url("../medios/banner_contraste/normas-juridicas.svg.html") !important; }
+
+/*ACTOS Y DOCUMENTOS EN EL DIARIO OFICIAL*/
+.bloques-inicio .diario-oficial {
+	background-image: url("../medios/banner_contraste/diario-oficial.svg.html") !important; }
+
+/*TRANSFERENCIAS*/
+.bloques-inicio .transferencias {
+	background-image: url("../medios/banner_contraste/transferencias.svg.html") !important; }
+
+/*PARTICIPACIÓN CIUDADANA*/
+.bloques-inicio .participacion-ciudadana {
+	background-image: url("../medios/banner_contraste/participacion-ciudadana.svg.html") !important; }
+
+/*ACTOS Y DOCUMENTOS CALIFICADOS COMO SECRETOS*/
+.bloques-inicio .archivos-secretos {
+	background-image: url("../medios/banner_contraste/archivos-secretos.svg.html") !important; }
+
+/*MARCO NORMATIVO*/
+.bloques-inicio .marco-normativo {
+	background-image: url("../medios/banner_contraste/marco-normativo.svg.html") !important; }
+
+/*ACTOS Y RESOLUCIONES*/
+.bloques-inicio .actos-resoluciones {
+	background-image: url("../medios/banner_contraste/actos-resoluciones.svg.html") !important; }
+
+/*INFORMACIÓN SOBRE EL PRESUPUESTO ASIGNADO*/
+.bloques-inicio .presupuesto {
+	background-image: url("../medios/banner_contraste/presupuesto.svg.html") !important; }
+
+/*COSTOS DE REPRODUCCIÓN DE DOCUMENTACIÓN*/
+.bloques-inicio .costos-reproduccion {
+	background-image: url("../medios/banner_contraste/costos-reproduccion.svg.html") !important; }
+
+/*ESTRUCTURA ORGÁNICA*/
+.bloques-inicio .estructura {
+	background-image: url("../medios/banner_contraste/estructura.svg.html") !important; }
+
+/*TRÁMITES DEL ORGANISMO*/
+.bloques-inicio .tramites {
+	background-image: url("../medios/banner_contraste/tramites.svg.html") !important; }
+
+/*INFORMACIÓN PRESUPUESTARIA RESULTADOS AUDITORÍA*/
+.bloques-inicio .info-presupuestaria {
+	background-image: url("../medios/banner_contraste/info-presupuestaria.svg.html") !important; }
+
+/*DIFICULTADES TÉCNICAS, VISUALIZADORES & PLUG-INS*/
+.bloques-inicio .dificultades-tecnicas {
+	background-image: url("../medios/banner_contraste/dificultades-tecnicas.svg.html") !important; }
+
+/*PERSONAL Y REMUNERACIONES*/
+.bloques-inicio .personal-remuneraciones {
+	background-image: url("../medios/banner_contraste/personal-remuneraciones.svg.html") !important; }
+
+/*SUBSIDIOS Y BENEFICIOS*/
+.bloques-inicio .subsidios-beneficios {
+	background-image: url("../medios/banner_contraste/subsidios-beneficios.svg.html") !important; }
+
+/*PARTICIPACIÓN EN OTRAS ENTIDADES*/
+.bloques-inicio .participacion {
+	background-image: url("../medios/banner_contraste/participacion.svg.html") !important; }
+
+/*OTROS ANTECEDENTES*/
+.bloques-inicio .otros-antecedentes {
+	background-image: url("../medios/banner_contraste/otras-entidades.svg.html") !important; }
+
+/*fondo imagen bloque*/
+/*DIV CON FONDO IMG PARA CADA BLOQUE*/
+.bloques-inicio .banner-inicio {
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	margin: 0px !important;
+	/* position: inherit !important; */
+	background-repeat: no-repeat !important;
+	/*width: 100%;*/
+	/*height: 85px;*/
+	background-position: center center !important; }
+
+/*TITULO DE LA CARTA DENTRO DEL DIV*/
+/*negrita de modal*/
+.contenido p a {
+	font-weight: 500; }
+
+h1.titulo
+{
+	font-weight: 500 !important;
+}
